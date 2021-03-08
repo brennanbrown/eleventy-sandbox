@@ -1,7 +1,16 @@
-# About Me
+---
+title: About Me
+layout: page-hero
+headerHeight: 70vh
+hero: https://brennanbrown.ca/img/header.jpg
+summary: Content Strategist and Web Developer looking to improve lives with the JAMstack!
+permalink: '/about-{{ pkg.author | slug }}/'
+---
 
-![http://pixelprowess.com/i/raybo01.jpg](http://pixelprowess.com/i/raybo01.jpg)
+# {{title}}
 
-Ray Villalobos is a full-stack design/development teacher and senior staff instructor at <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">LinkedIn Learning</a>. His courses are focused on front-end design and development topics such as JavaScript, AngularJS, React, and Sass, plus frameworks like Bootstrap and tools that can make you a faster, more efficient developer. He has a clear and practical teaching style and will help you improve your skills through real-world exercises and projects.
+Hey there! My name is Brennan, I'm a 24-year-old Métis web developer and content strategist from Winnipeg, Manitoba and currently reside in Calgary, Alberta. I've recently compeleted a Full Stack Developer Program at [EvolveU](https://www.evolveu.ca/), and I'm looking to help those that need web development work done, or searching for ideas and management for their next content project.
 
-Previously, as a director of multimedia for Entravision Communications, Ray managed a network of radio and TV station websites on the East Coast. He also designed large newspaper sites and created interactive projects/games for the Tribune network of newspapers. You can reach him on LinkedIn or through other social networks @planetoftheweb. Check out his personal blog at [raybo.org](http://raybo.org).
+I would also love to volunteer my time to contributing to open-source projects! I love creating and tinkering with small, static websites and projects. I'm a big proponent of putting an emphasis on accessibility and the [A11y project](https://www.a11yproject.com/) in web development.
+
+I'm always looking to work with people that are hopeless idealists like me, as well as who are interested in creating and working on cool, interesting, and meaningful projects! Shoot me [an e-mail](mailto:mail@brennanbrown.ca) if that sounds like your cup of tea.

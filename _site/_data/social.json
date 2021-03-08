@@ -1,0 +1,37 @@
+[
+  {
+    "name": "github",
+    "iconClass": "fab fa-github",
+    "url": "https://github.com/brennanbrown"
+  },
+  {
+    "name": "linkedin",
+    "iconClass": "fab fa-linkedin",
+    "url": "https://linkedin.com/in/brennankbrown"
+  },
+  {
+    "name": "twitter",
+    "iconClass": "fab fa-twitter",
+    "url": "https://twitter.com/brennankbrown"
+  },
+  {
+    "name": "dribble",
+    "iconClass": "fab fa-dribbble",
+    "url": "https://dribbble.com/brennanbrown"
+  },
+  {
+    "name": "flickr",
+    "iconClass": "fab fa-flickr",
+    "url": "https://www.flickr.com/photos/brennankbrown/sets/72157602932636630/"
+  },
+  {
+    "name": "youtube",
+    "iconClass": "fab fa-youtube",
+    "url": "https://www.youtube.com/user/brennankbrown"
+  },
+  {
+    "name": "instagram",
+    "iconClass": "fab fa-instagram",
+    "url": "https://www.instagram.com/iviewsource"
+  }
+]
