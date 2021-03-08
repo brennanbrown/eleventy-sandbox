@@ -1,0 +1,15 @@
+{
+  "name": "jamstack",
+  "version": "1.0.0",
+  "description": "Playing with the serverless JAMStack generator Eleventy, under construction!",
+  "scripts": {
+    "start": "eleventy --serve --quiet"
+  },
+  "author": "Brennan K. B rown",
+  "devDependencies": {
+    "@11ty/eleventy-navigation": "^0.1.4",
+    "js-yaml": "^3.13.1",
+    "luxon": "^1.22.0",
+    "node-fetch": "^2.6.0"
+  }
+}
