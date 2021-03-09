@@ -1,13 +1,13 @@
 ---
-title: About Me
+title: About Brennan K. Brown
 layout: page-hero
 headerHeight: 70vh
 hero: https://brennanbrown.ca/img/header.jpg
 summary: Content Strategist and Web Developer looking to improve lives with the JAMstack!
-permalink: '/about-{{ pkg.author | slug }}/'
+permalink: '/about/'
 ---
 
-# {{title}}
+# About
 
 Hey there! My name is Brennan, I'm a 24-year-old Métis web developer and content strategist from Winnipeg, Manitoba and currently reside in Calgary, Alberta. I've recently compeleted a Full Stack Developer Program at [EvolveU](https://www.evolveu.ca/), and I'm looking to help those that need web development work done, or searching for ideas and management for their next content project.
 

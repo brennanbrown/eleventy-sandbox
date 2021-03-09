@@ -41,6 +41,7 @@ Alghough validation is something that can be handled in many places, this extens
 ---
 
 ## Clear Cache
+
 [![Clear Cache](http://i.imgur.com/VtAhYdX.png)](https://chrome.google.com/webstore/detail/clear-cache/cppjkneekbjaeellbfkmgnhonkkjfpdn?hl=en&gl=US)
 To test some applications properly, it's often necessary to clear things like cookies and site caches, but the process for doing so in Chrome takes a long time. This extension is a one click solution to quickly removing your site cache...set up some defaults and you're ready to go. Hit the button and the defaults will be applied immediately without confirmation (so be careful with this).
 

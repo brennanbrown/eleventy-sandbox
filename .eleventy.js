@@ -1,3 +1,5 @@
+const yaml = require("js-yaml");
+
 module.exports = function(eleventyConfig) {
 
     // Exposing the eleventyConfig variable to process assets:
@@ -5,9 +7,12 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("./site/css");
 
     // Creates shortcut aliases for long layout path names: 
-    eleventyConfig.addLayoutAlias("base", "pageTemplates/base.njk);
-    eleventyConfig.addLayoutAlias("page", "pageTemplates/page.njk);
-    eleventyConfig.addLayoutAlias("page-hero", "pageTemplates/page-hero.njk);
+    eleventyConfig.addLayoutAlias("base", "_pageTemplates/base.njk");
+    eleventyConfig.addLayoutAlias("page", "_pageTemplates/page.njk");
+    eleventyConfig.addLayoutAlias("page-hero", "_pageTemplates/page-hero.njk");
+
+    // Using the YAML data format instead of JSON:
+    eleventyConfig.addDataExtension('yaml', contents => yaml.safeLoad(contents));
 
     return { 
       markdownTemplateEngine: 'njk',

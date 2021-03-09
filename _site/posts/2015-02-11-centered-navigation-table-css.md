@@ -43,6 +43,7 @@ I've simplified it a bit here for clarity. The key extra item here is the additi
 ```
 
 ## Set the width of main container
+
 The main thing here is the `width: 100%;` on the nav with the sitemenu class. You should have a container here that makes the width of the navigation container go full width. If you examine the code (by clicking on the HTML tab in the code window).
 
 ## Enter the table style

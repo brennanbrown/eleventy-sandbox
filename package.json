@@ -5,11 +5,11 @@
   "scripts": {
     "start": "eleventy --serve --quiet"
   },
-  "author": "Brennan K. B rown",
+  "author": "Brennan K. Brown",
   "devDependencies": {
     "@11ty/eleventy-navigation": "^0.1.4",
     "js-yaml": "^3.13.1",
     "luxon": "^1.22.0",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.1"
   }
 }
