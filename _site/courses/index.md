@@ -1,6 +1,7 @@
 ---
 title: Courses
 layout: page
+permalink: /courses/
 ---
 
 # {{title}}

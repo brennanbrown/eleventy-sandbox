@@ -7,3 +7,10 @@
 .nav-social-icon {
     font-size: 1.3em;
 }
+
+.client-img {
+    /* https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit */
+    object-fit: cover;
+    object-position: 50% 50;
+    height: 400px;
+}
