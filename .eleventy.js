@@ -1,4 +1,5 @@
 const yaml = require("js-yaml");
+const { DateTime } = require("luxon");
 
 module.exports = function(eleventyConfig) {
 
@@ -26,6 +27,15 @@ module.exports = function(eleventyConfig) {
 
     // Using the YAML data format instead of JSON:
     eleventyConfig.addDataExtension('yaml', contents => yaml.safeLoad(contents));
+
+    // Using Luxon to make custom filters for readable date formatting:
+    eleventyConfig.addFilter("simpleDate", dateObj => {
+      return DateTime.fromJSDate(dateObj, {zone: "utc"}).toFormat('LLL dd, yyyy');
+    })
+
+    eleventyConfig.addFilter("courseDate", dateObj => {
+      return DateTime.fromFormat(dateObj, 'LLL d, yyyy').toFormat('yyyy-LL-dd');
+    })
 
     return { 
       markdownTemplateEngine: 'njk',

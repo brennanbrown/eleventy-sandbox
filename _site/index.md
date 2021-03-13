@@ -1,4 +1,25 @@
-# JAMStack
+---
+title: Welcome!
+date: created
+layout: page
+tags:
+  - home
+  - welcome
+  - info
+---
+
+# {{ title }}
+
+**Date:** {{ page.date | simpleDate }}
+
+**By:** {{ pkg.author }}
+
+Tags:
+<ul>
+    {% for item in tags %}
+    <li> {{ item | capitalize }} </li>
+    {% endfor %}
+</ul>
 
 The **JAMStack** is part of a family of techniques for creating sites called `serverless`, but those techniques can be a bit confusing.
 

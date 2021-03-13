@@ -21,7 +21,7 @@ permalink: /courses/
           <time
             class="item-date small d-block text-muted mb-2"
             datetime="{{ course.date | safe }}"
-            >{{ course.date | safe }}</time
+            >{{ course.date | courseDate }}</time
           >
           <p class="card-text">{{ course.summary | safe }}</p>
           <a
