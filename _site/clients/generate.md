@@ -1,12 +1,11 @@
 ---
-pagination: 
+pagination:
   data: clients
   size: 1
   alias: client
 permalink: "clients/{{client.name | slug}}/"
 layout: page
 ---
-
 
 <h1 class="mt-0">{{client.name}}</h1>
 <p>{{client.title}}, <span class="font-weight-bold text-secondary">{{client.company}}</span></p>

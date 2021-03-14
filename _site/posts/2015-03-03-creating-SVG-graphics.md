@@ -2,7 +2,7 @@
 
 ![/images/posts/svggraphics.png](/images/posts/svggraphics.png)
 
-*A lot of data visualizations use the SVG format to create graphics, so in this article, we'll use SVG to create some basic shapes and graphics. Understanding how the format works will help you when you're using SVG based libraries and frameworks.*
+_A lot of data visualizations use the SVG format to create graphics, so in this article, we'll use SVG to create some basic shapes and graphics. Understanding how the format works will help you when you're using SVG based libraries and frameworks._
 
 ## SVG Graphic Fundamentals
 

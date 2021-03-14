@@ -2,7 +2,7 @@
 
 ![/images/posts/horizontally.png](/images/posts/horizontally.png)
 
-*Getting a menu to center horizontally is surprisingly hard, especially when you're using CSS lists. In this tutorial, I'll show you how to change the display element to pretend you're centering a table, which is easy.*
+_Getting a menu to center horizontally is surprisingly hard, especially when you're using CSS lists. In this tutorial, I'll show you how to change the display element to pretend you're centering a table, which is easy._
 
 <div class="embed-responsive embed-responsive-16by9">
 <iframe class="embed-responsive-item" width="700" height="450" src="https://www.youtube.com/embed/RT64aSNXnzY" frameborder="0" allowfullscreen></iframe>

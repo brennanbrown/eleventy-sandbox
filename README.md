@@ -12,19 +12,19 @@ If you're curious about downloading and using this as a template for your own wo
 
 - #### Node installation on Windows
 
-    Just go on [official Node.js website](https://nodejs.org/) and download the installer.
-    Also, be sure to have `git` available in your PATH, `npm` might need it (You can find git [here](https://git-scm.com/)).
+  Just go on [official Node.js website](https://nodejs.org/) and download the installer.
+  Also, be sure to have `git` available in your PATH, `npm` might need it (You can find git [here](https://git-scm.com/)).
 
 - #### Node installation on Ubuntu
 
-    You can install nodejs and npm easily with apt install, just run the following commands.
+  You can install nodejs and npm easily with apt install, just run the following commands.
 
         sudo apt install nodejs
         sudo apt install npm
 
 - #### Other Operating Systems
 
-    You can find more information about the installation on the [official Node.js website](https://nodejs.org/) and the [official NPM website](https://npmjs.org/).
+  You can find more information about the installation on the [official Node.js website](https://nodejs.org/) and the [official NPM website](https://npmjs.org/).
 
 If the installation was successful, you should be able to run the following command.
 
@@ -47,12 +47,11 @@ Then, you can run locally in development mode with live reload:
 
     npm run dev
 
-
 Open <http://localhost:8080> with your favorite browser to see your blog.
 
 ### Project structure
 
-```
+```text
 .
 ├── public             # Static files
 │   └── assets
@@ -82,17 +81,13 @@ You can easily configure Eleventy Starter Boilerplate. Please change the followi
 
 You can see the results locally in production mode with:
 
-```
-npm run serve
-```
+    npm run serve
 
 The generated HTML and CSS files are minified. It will also removed unused CSS from [Tailwind CSS](https://tailwindcss.com).
 
 You can create an optimized production build with:
 
-```
-npm run build
-```
+    npm run build
 
 Now, your blog is ready to be deployed. All generated files are located at `_site` folder, which you can deploy with any hosting service.
 

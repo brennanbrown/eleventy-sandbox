@@ -2,7 +2,7 @@
 
 ![/images/posts/chromeextensions.png](/images/posts/chromeextensions.png)
 
-*Google Chrome Extensions can help you take care of certain tasks quickly. Here's a quick review of some of my favorite extensions for web design and development.*
+_Google Chrome Extensions can help you take care of certain tasks quickly. Here's a quick review of some of my favorite extensions for web design and development._
 
 ## Responsive Inspector
 

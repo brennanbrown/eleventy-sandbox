@@ -4,7 +4,7 @@
 
 # Common Data-Viz Formats
 
-*In order to work with data-visualization, it's important to understand the formats commonly used to generate visual data. In this article, I'll talk about different formats for storing data plus their advantages and disadvantages and give you some resources.*
+_In order to work with data-visualization, it's important to understand the formats commonly used to generate visual data. In this article, I'll talk about different formats for storing data plus their advantages and disadvantages and give you some resources._
 
 Data Visualization via computers means that you take some existing data and use a computer to process the information that you have gathered. In order to create visualizations, the data has to be converted (or parsed) into a format that is easy for computers to understand. There are many formats available, but some are better than others depending on what you're using to process. Let's take a look at some of our options.
 

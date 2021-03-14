@@ -1,6 +1,6 @@
 # Vector Graphic Formats Used for data visualizations
 
-*In this article, I'll talk about the different graphic formats used for visualizing data and examine some of the differences. Since most visualizations are handled in just a few different vector graphic formats, we'll see why using vectors has advantages over bitmaps because it allows us to illustrate as well as create interactions with very little overhead.*
+_In this article, I'll talk about the different graphic formats used for visualizing data and examine some of the differences. Since most visualizations are handled in just a few different vector graphic formats, we'll see why using vectors has advantages over bitmaps because it allows us to illustrate as well as create interactions with very little overhead._
 
 ## Vector Graphics
 
@@ -21,7 +21,7 @@ This, of course, is a huge advantage over bitmaps, but vectors are only good for
 Online graphics are usually served in just a few formats. The most common bitmap formats are GIF, JPEG and PNG. Because these formats are, for the most part, static (with the exception of GIF), they are not best for representing data for visualizations. In addition to being difficult to animate, individual data points or elements are not accessible through JavaScript.
 
 | Format | Description       |
-| ------ | ----------------- |
+| ------ | ----------------- | ---------------------------------------------------------------------- |
 | GIF    | 256 colors max    | Low quality, but only Bitmap format that supports very basic animation |
 | JPEG   | 24-Bit True color | High quality especially on photos, but no animation                    |
 | PNG    | Up to 64-bit      | Smooth transparency, great compression, no animation                   |

@@ -2,7 +2,7 @@
 
 ![/images/posts/json.png](/images/posts/json.png)
 
-*Javascript has grown from a way to add interactivity on your page, to a language that lets you perform tasks that once belonged to servers. JSON provides for an easy way to create and store data structures within JavaScript. It’s super popular and a great alternative to XML.*
+_Javascript has grown from a way to add interactivity on your page, to a language that lets you perform tasks that once belonged to servers. JSON provides for an easy way to create and store data structures within JavaScript. It’s super popular and a great alternative to XML._
 
 JSON stands for JavaScript Object Notation…it’s called that because storing data with JSON creates a JavaScript object. The JavaScript object can be easily parsed and manipulated with JavaScript.
 
@@ -52,14 +52,14 @@ What if we wanted to enter a bunch of people…then we have to add array notatio
       {
         firstName: "Ray",
         lastName: "Villalobos",
-        joined: 2012
+        joined: 2012,
       },
       {
         firstName: "John",
         lastName: "Jones",
-        joined: 2010
-      }
-    ]
+        joined: 2010,
+      },
+    ],
   };
 
   document.getElementById("placeholder").innerHTML =
@@ -88,8 +88,8 @@ Notice that we obviously had to change our code for inserting the name. We had t
         joined: {
           month: "January",
           day: 12,
-          year: 2012
-        }
+          year: 2012,
+        },
       },
       {
         firstName: "John",
@@ -97,10 +97,10 @@ Notice that we obviously had to change our code for inserting the name. We had t
         joined: {
           month: "April",
           day: 28,
-          year: 2010
-        }
-      }
-    ]
+          year: 2010,
+        },
+      },
+    ],
   };
 
   document.getElementById("placeholder").innerHTML =
@@ -133,8 +133,8 @@ So, if we want to go through the user list, we could simply use JavaScript’s f
         joined: {
           month: "January",
           day: 12,
-          year: 2012
-        }
+          year: 2012,
+        },
       },
       {
         firstName: "John",
@@ -142,10 +142,10 @@ So, if we want to go through the user list, we could simply use JavaScript’s f
         joined: {
           month: "April",
           day: 28,
-          year: 2010
-        }
-      }
-    ]
+          year: 2010,
+        },
+      },
+    ],
   };
 
   var output = "<ul>";
@@ -184,7 +184,7 @@ It would be nice if we could store this on an external file and then just read e
     <div id="placeholder"></div>
     <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
     <script>
-      $.getJSON("data.json", function(data) {
+      $.getJSON("data.json", function (data) {
         var output = "<ul>";
         for (var i in data.users) {
           output +=

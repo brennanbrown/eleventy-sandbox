@@ -2,7 +2,7 @@
 
 ![/images/posts/rightsocialmedia.png](/images/posts/rightsocialmedia.png)
 
-*Everyone talks about getting a lot of followers in social media, but what does that really mean? And why is it even important? Well everyone is wrong. I'm much happier when I focus on getting the right type of followers.*
+_Everyone talks about getting a lot of followers in social media, but what does that really mean? And why is it even important? Well everyone is wrong. I'm much happier when I focus on getting the right type of followers._
 
 People are usually surprised when they find out that I'm an introvert. I think it's because I love meeting people at web conferences. I'm almost addicted to it. I recently went to the An Event Apart conference in DC, and although I'm trying to watch what I eat, I religiously went to the lunches and Special events; just to meet the people.
 

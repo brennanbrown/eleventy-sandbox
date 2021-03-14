@@ -4,7 +4,7 @@ layout: page-hero
 headerHeight: 70vh
 hero: https://brennanbrown.ca/img/header.jpg
 summary: Content Strategist and Web Developer looking to improve lives with the JAMstack!
-permalink: '/about/'
+permalink: "/about/"
 ---
 
 # About
