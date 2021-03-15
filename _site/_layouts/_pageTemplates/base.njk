@@ -16,6 +16,11 @@ siteTitle: JAMStack with Eleventy
   <body class="bg-dark">
     <div class="container">
       <div class="bg-white">
+        <header class="mb-4 text-center">
+          <h1 class="text-primary mt-2 mb-0 font-weight-bold">Welcome to Brennan's Eleventy Sandbox!</h1>
+          <h2 class="text-secondary mt-2 mb-0">Latest Posts:</h2>
+          <div class="small">&raquo; <a class="text-secondary" href="/posts">more posts</a></div>
+        </header>
         {{ content | safe }}
       </div>
       {% include "social.njk" %}

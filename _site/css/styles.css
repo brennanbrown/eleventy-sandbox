@@ -14,3 +14,7 @@
     object-position: 50% 50;
     height: 400px;
 }
+
+img {
+    max-width: 100%;
+}

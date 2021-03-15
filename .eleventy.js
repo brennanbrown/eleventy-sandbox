@@ -9,6 +9,7 @@ module.exports = function (eleventyConfig) {
   // Creates shortcut aliases for long layout path names:
   eleventyConfig.addLayoutAlias("base", "_pageTemplates/base.njk");
   eleventyConfig.addLayoutAlias("page", "_pageTemplates/page.njk");
+  eleventyConfig.addLayoutAlias("page-post", "_pageTemplates/page-post.njk");
   eleventyConfig.addLayoutAlias("page-hero", "_pageTemplates/page-hero.njk");
 
   /* 
@@ -25,9 +26,7 @@ module.exports = function (eleventyConfig) {
   });
 
   // Using the YAML data format instead of JSON:
-  eleventyConfig.addDataExtension("yaml", (contents) =>
-    yaml.safeLoad(contents)
-  );
+  eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
 
   // Using Luxon to make custom filters for readable date formatting:
   eleventyConfig.addFilter("simpleDate", (dateObj) => {
