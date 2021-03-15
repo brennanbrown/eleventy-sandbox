@@ -1,10 +1,12 @@
-# Horizontally Centered Navigation Menu with CSS
-
-![/images/posts/horizontally.png](/images/posts/horizontally.png)
-
-_Getting a menu to center horizontally is surprisingly hard, especially when you're using CSS lists. In this tutorial, I'll show you how to change the display element to pretend you're centering a table, which is easy._
+---
+title: Horizontally Centered Navigation Menu with CSS
+hero: /images/posts/horizontally.png
+thumbnail: /images/posts/horizontally_tn.png
+summary: "Getting a menu to center horizontally is surprisingly hard, especially when you're using CSS lists. In this tutorial, I'll show you how to change the display element to pretend you're centering a table, which is easy."
+---
 
 <div class="embed-responsive embed-responsive-16by9">
+
 <iframe class="embed-responsive-item" width="700" height="450" src="https://www.youtube.com/embed/RT64aSNXnzY" frameborder="0" allowfullscreen></iframe>
 </div>
 
@@ -37,13 +39,12 @@ I've simplified it a bit here for clarity. The key extra item here is the additi
 .sitemenu {
   width: 100%;
   background: #a2cea5;
-  font-family: "Droid Sans", serif;
+  font-family: 'Droid Sans', serif;
   border-top: 8px solid #126758;
 }
 ```
 
-## Set the width of main container
-
+##Set the width of main container
 The main thing here is the `width: 100%;` on the nav with the sitemenu class. You should have a container here that makes the width of the navigation container go full width. If you examine the code (by clicking on the HTML tab in the code window).
 
 ## Enter the table style

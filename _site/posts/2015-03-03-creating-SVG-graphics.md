@@ -1,8 +1,9 @@
-# Getting started creating SVG Graphics
-
-![/images/posts/svggraphics.png](/images/posts/svggraphics.png)
-
-_A lot of data visualizations use the SVG format to create graphics, so in this article, we'll use SVG to create some basic shapes and graphics. Understanding how the format works will help you when you're using SVG based libraries and frameworks._
+---
+title: Getting started creating SVG Graphics
+hero: /images/posts/svggraphics.png
+thumbnail: /images/posts/svggraphics_tn.png
+summary: "A lot of data visualizations use the SVG format to create graphics, so in this article, we'll use SVG to create some basic shapes and graphics. Understanding how the format works will help you when you're using SVG based libraries and frameworks."
+---
 
 ## SVG Graphic Fundamentals
 
@@ -33,9 +34,9 @@ If you come from an HTML background, there are some important things to note abo
 For example, technically, the `<svg>` tag should include an SVG namespace declaration specifying the version and format of the library you're using.
 
 ```
- <svg xmlns="http://www.w3.org/2000/svg" …>
-   <rect …/>
- </svg>
+	<svg xmlns="http://www.w3.org/2000/svg" …>
+  	<rect …/>
+	</svg>
 ```
 
 Here's where you can <a href="http://www.w3.org/Graphics/SVG/">learn more about the SVG specification</a> and format.
